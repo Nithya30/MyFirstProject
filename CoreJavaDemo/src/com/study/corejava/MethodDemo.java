@@ -22,10 +22,10 @@ public class MethodDemo {
 			System.out.println(str);
 	}
 
-	// String add(int x, int y) {
-	// String s = "Added succeessfully";
-	// return s;
-	// }
+	String add(int x, int y) {
+		String s = "Added succeessfully";
+		return s;
+	 }
 
 	int add(int... array) {
 		int result = 0;
