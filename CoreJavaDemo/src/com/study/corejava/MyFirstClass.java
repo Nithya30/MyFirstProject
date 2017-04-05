@@ -5,6 +5,7 @@ class MyFirstClass {
 	String fName;
 	String  lName;
 	int id;
+	private static MyFirstClass e2;
 
 
 
@@ -14,9 +15,12 @@ class MyFirstClass {
 		e1.fName = "David";
 		e1.lName="Schwimmer";
 		e1.id = 1001;
-
-		MyFirstClass e2 = null;
 		System.out.println(e1.fName);
+		e2 = new MyFirstClass();
+		e2.fName = "Cortney";
+		e2.lName = "Cox";
+		e2 = null;
+		
 		try{
 		System.out.println(e2.lName);
 		}

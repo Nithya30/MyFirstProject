@@ -1,6 +1,7 @@
 package com.study.corejava;
 
 import java.util.*;
+import java.util.Map.Entry;
 
 class GenericsDemoMap {
 	public static void main(String args[]) {
@@ -14,7 +15,7 @@ class GenericsDemoMap {
 
 		Iterator<Map.Entry<Integer, String>> itr = set.iterator();
 		while (itr.hasNext()) {
-			Map.Entry e = itr.next();// no need to typecast
+			Entry<Integer, String> e = itr.next();// no need to typecast
 			System.out.println(e.getKey() + " " + e.getValue());
 		}
 
