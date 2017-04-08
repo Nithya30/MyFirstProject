@@ -18,14 +18,14 @@ public class MethodDemo {
 		int f = m1.add(1, 5, 6, 9);
 			System.out.println("Added values in array: " + f);
 			
-		String str = m1.add(int x,int y);
-			System.out.println(str);
+		/*String str = m1.add(int x,int y);
+			System.out.println(str);*/
 	}
 
-	String add(int x, int y) {
+	/*String add(int x, int y) {
 		String s = "Added succeessfully";
 		return s;
-	 }
+	 }*/
 
 	int add(int... array) {
 		int result = 0;
